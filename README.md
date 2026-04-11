@@ -10,9 +10,12 @@
 [![Backend](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Machine Learning](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-[![Status](https://img.shields.io/badge/Status-Hackathon%20Ready-00C853?style=for-the-badge)]()
+[![Telegram Bot](https://img.shields.io/badge/Telegram%20Bot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.org/)
+[![n8n Automation](https://img.shields.io/badge/n8n-Automation-EA4B71?style=for-the-badge)](https://n8n.io/)
+[![GenAI](https://img.shields.io/badge/GenAI-LLM%20Powered-111827?style=for-the-badge)]()
+[![Status](https://img.shields.io/badge/Status-Live-00C853?style=for-the-badge)]()
 
-[**The Problem**](#-the-problem) • [**Our Solution**](#-our-solution) • [**Features**](#-key-features) • [**Architecture**](#-end-to-end-architecture) • [**Business Model**](#-business-model) • [**Impact**](#-impact--scale)
+[**The Problem**](#-the-problem) • [**Our Solution**](#-our-solution) • [**Tech Stack**](#-tech-stack) • [**Features**](#-key-features) • [**Architecture**](#-end-to-end-architecture) • [**Business Model**](#-business-model) • [**Impact**](#-impact--scale)
 
 </div>
 
@@ -50,6 +53,29 @@ Outcome promise:
 - Better selling timing.
 - Better mandi selection.
 - Better realized income per kg.
+
+---
+
+## 🧰 Tech Stack
+
+<div align="center">
+
+[![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-Build%20Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Backend-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML%20Engine-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Python](https://img.shields.io/badge/Python-Core%20Language-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+
+[![Telegram](https://img.shields.io/badge/Telegram-Chatbot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.org/)
+[![n8n](https://img.shields.io/badge/n8n-Automation%20Workflow-EA4B71?style=for-the-badge)](https://n8n.io/)
+[![LLM](https://img.shields.io/badge/LLM-GenAI%20Layer-111827?style=for-the-badge)]()
+[![OpenRouter Compatible](https://img.shields.io/badge/OpenRouter-Compatible-0EA5E9?style=for-the-badge)](https://openrouter.ai/)
+
+</div>
+
+- AI advisory flows are powered by an LLM-based GenAI layer.
+- Telegram bot acts as a low-friction farmer access channel.
+- n8n orchestrates chatbot workflows, triggers, and integration routing.
 
 ---
 
