@@ -1,18 +1,18 @@
 <div align="center">
 
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Sheaf%20of%20Rice.png" alt="Rice" width="45" /> AgroAI - The Smart Selling Advisor
+# 🌾 AgroAI - The Smart Selling Advisor
 
 <p align="center">
-  <b>Empowering Farmers with Next-Gen AI-Driven Market Insights & Profit Maximization</b>
+  <b>From मेहनत to Profit: AI-Powered Market Intelligence for Farmers</b>
 </p>
 
-[![Frontend](https://img.shields.io/badge/React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
+[![Frontend](https://img.shields.io/badge/React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Backend](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![Machine Learning](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Python](https://img.shields.io/badge/Python_3.9-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-[![Status](https://img.shields.io/badge/Status-Live-00C853?style=for-the-badge)]()
+[![Machine Learning](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
+[![Status](https://img.shields.io/badge/Status-Hackathon%20Ready-00C853?style=for-the-badge)]()
 
-[**The Problem**](#-the-problem) • [**Our Solution**](#-our-solution) • [**Key Features**](#-key-features) • [**Streamlit Engine**](#%EF%B8%8F-streamlit-ai-engine) • [**WhatsApp Bot**](#-whatsapp-bot-integration)
+[**The Problem**](#-the-problem) • [**Our Solution**](#-our-solution) • [**Features**](#-key-features) • [**Architecture**](#-end-to-end-architecture) • [**Business Model**](#-business-model) • [**Impact**](#-impact--scale)
 
 </div>
 
@@ -20,55 +20,221 @@
 
 ## 🚨 The Problem
 
-Every year, farmers face tremendous financial uncertainty. They plant crops without knowing what the market price will be at harvest time. **Lack of predictive insights** forces them to sell blindly, often in local markets saturated with the same crop, leading to devastating price crashes and significant losses.
-- **No Market Foresight:** Selling decisions are based on luck or outdated trends.
-- **Language Barriers:** Existing analytical tech solutions are primarily in English, alienating the actual users.
-- **Low Accessibility:** Many farmers do not own high-end smartphones or stable internet connections to run heavy web dashboards.
+Indian farmers face price uncertainty at the most critical decision point: selling.
+
+- 86% of farmers are small and marginal (<2 hectares), so small price drops cause high loss.
+- Farm-gate volatility and mandi information gaps drive distress selling.
+- Many farmers sell immediately after harvest when market supply is highest and prices are lowest.
+- Most digital tools are English-heavy and hard to use for grassroots users.
+- Farmers need decision intelligence, not just raw data.
+
+Core questions AgroAI solves:
+
+- When should I sell?
+- Where should I sell for better realized profit?
 
 ---
 
 ## 💡 Our Solution
 
-**AgroAI** is built to bridge the gap between advanced Machine Learning and the grassroots agricultural community. We shift the paradigm from *“growing and hoping”* to **“predicting and profiting”**.
-    
-By analyzing massive datasets of historical **Agmarknet commodity prices (2024-2025)**, our AI acts as a smart advisor:
-1. **Predicts** future prices up to 6 months in advance.
-2. **Recommends** the exact state and month to sell for maximum margins.
-3. **Delivers** these insights via a blazing-fast Multilingual React Dashboard AND an upcoming/integrated scalable WhatsApp Bot, ensuring zero friction for the end-user.
+AgroAI is an AI Smart Selling Advisor that predicts short-term mandi prices and gives direct action signals.
+
+- Predicts crop prices for upcoming days.
+- Recommends SELL, HOLD, or WAIT.
+- Compares nearby mandis to find better realized rates.
+- Improves net outcomes using price plus transport-aware logic.
+- Supports bilingual usage for inclusive adoption.
+
+Outcome promise:
+
+- Better selling timing.
+- Better mandi selection.
+- Better realized income per kg.
 
 ---
 
 ## 🚀 Key Features
 
-### 🌐 Multilingual Support (Built for Farmers)
-Technology is useless if the end-user cannot read it. AgroAI's frontend is fully i18n-ready, featuring **dynamic toggling between native languages** (Hindi, English, etc.) via custom translation dictionaries. Farmers can interact with price trends entirely in their mother tongue.
+### 1) Real-Time + Historical Intelligence
+- Uses historical and recent mandi trend intelligence.
+- Designed for high-frequency refresh workflow.
+- Incorporates seasonality and trend behavior from market signals.
 
-### 💬 WhatsApp Bot Integration
-To tackle the smartphone and internet barrier directly, AgroAI connects the ML backend with **WhatsApp**:
-- **Zero Learning Curve:** Farmers just text *"Bajra in UP"* and the bot instantly replies with future price predictions and best-selling advice.
-- **Universal Accessibility:** Works on low-end devices and even with poor 2G/3G network connections.
+### 2) Local Mandi Price Prediction
+- Crop-state specific forecasting.
+- AI recommendation engine: SELL or HOLD or WAIT.
+- Visual comparison of current and predicted prices.
 
-### 💻 Modern React Dashboard
-- **Bento-Grid UI:** Fluid and intuitive visual layout adapting perfectly to Mobiles, Tablets, and Desktop screens.
-- **Smart Prediction Cards:** Bite-sized actionable insights (Commodity metrics, optimal selling dates).
-- **Real-time Analytics Overlay:** Simulated loading overlays offering beautiful visual feedback during large data fetches.
+### 3) Multilingual Accessibility
+- Built for usability across language preferences.
+- Frontend translation flow supports local-language experience.
+- Low-friction interaction for small and marginal farmers.
+
+### 4) Profit Optimization
+- Multi-market arbitrage tracker for best selling location.
+- Distance-aware comparison for practical decisions.
+- Revenue calculator for quantity-based expected return.
 
 ---
 
-## ⚙️ Streamlit AI Engine & Backend
+## ✅ What AgroAI Can Do Today
 
-The heavy analytical lifting of AgroAI is powered by an industrialized Python-Streamlit architecture.
+- 7-day AI price prediction for crop-state combinations.
+- Action recommendation engine with SELL or HOLD or WAIT output.
+- Model performance dashboard with R2, MAE, RMSE, and data points.
+- Multi-market arbitrage tracker with estimated extra ₹ per kg gain.
+- Last 30-day trend chart and 7-day forecast chart.
+- Volatility-based risk banding: HIGH or MEDIUM or LOW.
+- Revenue estimation based on quantity and predicted price.
+- React-to-Streamlit continuity with selected crop and state context.
 
-- 🧠 **Intelligent State-wise Modeling:** Trains individual Random Forest Regressor models *per commodity, per state*, minimizing regional outliers and maximizing localized accuracy.
-- 📈 **Dynamic Visualizations:** Generates rich, interactive graphs via `Plotly.express` comparing historical prices against 6-month projected data across regions.
-- 💹 **Profit Maximizer Module:** Cross-calculates predicted values across different markets to suggest the absolute highest profitable "State + Month" combination.
-- ⚡ **Extensive Caching & Checksums:** Employs `.pkl` model caching and `hashlib` state-checking to prevent redundant training, accelerating inference speed by over 95%.
+---
+
+## ⚙️ End-to-End Architecture
+
+```mermaid
+flowchart TD
+    A[Agmarknet and Historical Data] --> B[Preprocessing]
+    B --> C[Feature Engineering]
+    C --> D[RandomForest Models per Crop-State]
+    D --> E[Model Storage pkl + metadata]
+    E --> F[Prediction Engine 7-day forecast]
+    F --> G[Decision Logic SELL HOLD WAIT]
+    G --> H[Arbitrage + Risk + Revenue Modules]
+    H --> I[Streamlit Backend :8501]
+    H --> J[React Frontend :5173]
+    J --> K[Farmer Decision Support]
+```
+
+Technical highlights:
+
+- Per-combination model loading from pkl artifacts.
+- Metadata-based crop-state discovery.
+- Cached inference workflow for speed.
+- Interactive Plotly visual analytics.
+
+---
+
+## 🧠 USP Snapshot
+
+- Predictive decision support instead of guesswork.
+- Recommendation plus actionability, not just dashboarding.
+- Bilingual and farmer-first interaction design.
+- Built for both survival-margin and scale-margin use cases.
+
+---
+
+## 💼 Business Model
+
+AgroAI follows a practical dual path.
+
+### Farmer-Centric Freemium
+- Easy entry through conversational assistant interfaces.
+- Basic advisory at no onboarding friction.
+- Upgrade path for advanced comparison and analytics.
+
+### B2G2F Institutional Strategy
+- Partnership model with government and institutional channels.
+- Public-good access for farmers with sustainable platform revenue.
+- Scope for advisory integration with larger agri ecosystems.
+
+---
+
+## 🏛 Government and Institutional Collaboration Scope
+
+Potential alignment areas:
+
+- Agriculture Infrastructure Fund (AIF)
+- Digital Agriculture Mission (DAM)
+- RKVY-RAFTAAR startup grant pathways
+- State-level decision support and advisory deployments
+
+---
+
+## 📈 Impact and Scale
+
+Target impact:
+
+- Reduce distress selling via better sell-time decisions.
+- Improve realized ₹ per kg through better mandi choice.
+- Increase trust with explainable recommendations.
+- Improve inclusion through local-language, simple UI workflows.
+
+Pilot metrics to track:
+
+- Average ₹ per kg gain versus local baseline mandi sale.
+- Percent of users following AI recommendation.
+- Repeat usage and seasonal retention.
+- Reduction in low-price-day selling behavior.
+
+---
+
+## 🔮 Future Scope
+
+- WhatsApp access layer for quick advisory and alerts.
+- Website remains advanced analytics hub.
+- WhatsApp layer handles lightweight queries and recommendation access.
+- Expansion toward larger mandi and crop coverage with richer integrations.
+
+---
+
+## 🧪 Local Run Guide
+
+### Backend
+
+```bash
+cd VIHAAN_DTU
+.venv\Scripts\activate
+streamlit run app.py
+```
+
+Open: http://localhost:8501
+
+### Frontend
+
+```bash
+cd VIHAAN_DTU\Agrow-Ai\frontend\agroai-react
+npm install
+npm run dev -- --host localhost --port 5173
+```
+
+Open: http://localhost:5173
+
+---
+
+## 📁 Project Structure
+
+```text
+VIHAAN_DTU/
+|-- app.py
+|-- offline_train.py
+|-- check_accuracy.py
+|-- verify_cache.py
+|-- requirements.txt
+|-- assets/
+|-- src/
+|-- models/
+|-- agmarknet-india-commodity-prices-2024-2025/
+`-- Agrow-Ai/
+    |-- AgroAIdemo/
+    `-- frontend/
+        `-- agroai-react/
+```
+
+---
+
+## 📚 Reference Notes
+
+Problem framing and strategy points in this README are aligned with your presentation deck themes, including:
+
+- Farmer distress-selling context.
+- Crop price decision intelligence.
+- Mandi comparison and profitability focus.
+- Accessibility-first product direction.
 
 ---
 
 <div align="center">
-  <br>
-  <b>Crafted with ❤️ for the DTU Hackathon</b><br>
-  <i>Bringing Data-Driven Agriculture to the Masses</i>
+  <b></b><br>
+  <i>Data-Driven Agriculture. Inclusive by Design.</i>
 </div>
-
