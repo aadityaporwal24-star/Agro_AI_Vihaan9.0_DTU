@@ -39,6 +39,7 @@ Core questions AgroAI solves:
 ---
 
 ## 💡 Our Solution
+https://agroai-market.vercel.app
 
 AgroAI is an AI Smart Selling Advisor that predicts short-term mandi prices and gives direct action signals.
 
